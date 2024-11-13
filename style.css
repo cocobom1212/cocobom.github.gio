@@ -1,0 +1,100 @@
+style.css
+
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+display: grid;
+
+grid-template-rows: auto 1fr auto;
+
+height: 100vh;
+
+header (
+
+background-color: #232343;
+
+color: green;
+
+text-align: center;
+
+padding: 1rem;
+
+=device-width, initial-scale=1.0">
+
+o Profil">
+
+}
+
+footer {
+
+background-color: #232343;
+
+color: white;
+
+text-align: center;
+
+padding: 1rem;
+
+}
+
+.container (
+
+display: grid;
+
+grid-template-columns: 1fr 2fr;
+
+</li>
+
+}
+
+padding: 20px;
+
+gap: 20px;
+
+itas C (2014-2018)</li>
+
+profile {
+
+text-align: center;
+
+}
+
+.profile img {
+
+border-radius: 50%;
+
+width: 150px;
+
+height: 150px;
+
+animation: fadeln 2s;
+
+haan A (2020-Sekarang)</li>
+
+}
+
+@keyframes fadeln { from {opacity: 0; }
+
+to {opacity: 1;)
+
+}
+
+.content {
+
+background-color: #f4f4f4;
+
+padding: 20px;
+
+border-radius: 8px;
+
+} @media (max-width: 768px) {
+
+.container {
+    grid-template-columns:1fr;
+
+}
